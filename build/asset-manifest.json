@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a32bb392.css",
+    "main.js": "/static/js/main.fd8880f0.js",
+    "static/js/453.26329329.chunk.js": "/static/js/453.26329329.chunk.js",
+    "static/media/my.jpg": "/static/media/my.0a312fc6d54dbb31f373.jpg",
+    "static/media/uiux.webp": "/static/media/uiux.580b88b63c60542fe50c.webp",
+    "static/media/editer.webp": "/static/media/editer.806252370ea686d5c5c9.webp",
+    "static/media/wed.webp": "/static/media/wed.3d0e184bb4817f776a99.webp",
+    "static/media/Praveen S.pdf": "/static/media/Praveen S.93cf2acad96d48217e60.pdf",
+    "static/media/logo1.png": "/static/media/logo1.d5046059faf0cb0a65ba.png",
+    "static/media/s.praveen.pdf": "/static/media/s.praveen.918d6abad5b880cde554.pdf",
+    "static/media/v_packs.png": "/static/media/v_packs.268221ef95519d4d13ed.png",
+    "static/media/tap.png": "/static/media/tap.df1d6ee6b1b39f7bffd4.png",
+    "static/media/xogame.jpeg": "/static/media/xogame.9068d491c58b60ddfa72.jpeg",
+    "static/media/et1.jpg": "/static/media/et1.c7aa48b68578cc03512f.jpg",
+    "static/media/mysql.png": "/static/media/mysql.aa790b3c3edcf0510519.png",
+    "index.html": "/index.html",
+    "main.a32bb392.css.map": "/static/css/main.a32bb392.css.map",
+    "main.fd8880f0.js.map": "/static/js/main.fd8880f0.js.map",
+    "453.26329329.chunk.js.map": "/static/js/453.26329329.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a32bb392.css",
+    "static/js/main.fd8880f0.js"
+  ]
+}
