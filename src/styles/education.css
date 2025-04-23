@@ -1,0 +1,129 @@
+
+/* education */
+:root {
+    /* --blue-50: #eff6ff;
+    --blue-100: #dbeafe;
+    --blue-200: #bfdbfe;
+    --blue-300: #93c5fd;
+    --blue-400: #60a5fa;
+    --blue-500: #3b82f6;
+    --blue-600: #2563eb;
+    
+    --blue-800: #1e40af;
+    --blue-900: #1e3a8a;
+    --blue-950: #172554; */
+
+    
+    /* --bgcolor-60:#ffffff;
+    --bgcolor-70:#007AFF; 
+    --textcolor-70:#007AFF;
+    --textcolor-80:#fdfdfe; */
+
+    /* --blue-700: #1e40af; */
+  }
+
+  h1{
+    text-align: left;
+    margin-left: 30px;
+    color: var(--textcolor-70);
+  }
+  .edumain1{
+    background-color:var(--bgcolor-70);
+    text-align: center;
+    color:var(--textcolor-80) ;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border: #372420 2px solid;
+    border-radius: 30px;
+   box-shadow: 0px 0px 20px #372420;
+  }
+  .edu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    margin-left: 30px;
+    
+  }
+   .eduDiploma {
+    width: 100%;
+    height: 20vh;
+    
+   
+  }
+  .educollage{
+    width: 100%;
+    height: 20vh;
+   
+  }
+  .eduschool{
+    width: 100%;
+    height: 20vh;
+   
+  }
+  .nameini{ 
+    font-size:25px ;
+  }
+  .year1{
+    color: rgb(179, 215, 246);
+  }
+  .class1{
+    font-size: 25px;
+  }
+  .donbnt{
+    width: 100px;
+    margin-left: 30px;
+   
+    border-radius: 30px;
+   box-shadow: 0px 0px 20px #372420;
+    background-color:var(--card-50);
+    padding: 20px 30PX;
+    border-radius: 5px;
+ 
+  }
+  .donbnt a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  @media (min-width: 320px) and (max-width: 768px){
+    .edu {
+     flex-direction: column;
+      text-align: left;
+      gap: 10px;
+      margin-left: 0px;
+      padding-bottom: 10px;
+      
+  }
+  .eduDiploma ,.educollage,.eduschool {
+    width: 90%;
+    padding: 10px;  
+    border-radius: 20px;
+    height: 22vh;
+  }
+  .nameini{ 
+    font-size:20px ;
+  }
+  .class1{
+    font-size: 23px;
+  }
+ .class2{
+  font-size:15px ;
+ }
+
+ .edumain1 h1{
+    font-size: 25px;
+    margin-left: 20px;
+    color: var(--textcolor-70);
+  }
+  .donbnt{
+    margin-left: 20px;
+    padding: 10px 15PX;
+    border-radius: 3px;
+ 
+  }
+ 
+  }

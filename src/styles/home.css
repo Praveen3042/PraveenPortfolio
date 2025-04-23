@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+/* :root {
+    
+
+    --bgcolor-50:#282D3C;
+    --bgcolor-70:#021325; 
+    --textcolor-70:#007AFF;
+  } */
+
+
+
+
+  .homepage{
+    height: 85vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; Vertically centers content */
+    align-items: center; /* Horizontally centers content */
+    background-color:var(--bgcolor-70);
+    /* font-family: "Protest Guerrilla", sans-serif; */
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:var(--textcolor-70) ;
+  
+    border: #372420 2px solid;
+    border-radius: 30px;
+   box-shadow: 0px 0px 20px #372420;
+  }
+  
+  .homepage p{
+    font-size: 40px;
+    text-align: left;
+  }
+  .homeicon{
+   
+    display: flex;
+    justify-content: center;
+  }
+  .homeicon a svg {
+    font-size: 40px;
+    color:var(--textcolor-70); /* Set the color of the icons if needed */
+  }
+  .homedevp{
+    font-size: 18px;
+    font-weight: 400px;
+    min-width: 200px;
+    margin-left: 40px;
+  }
+  .homedevp span{
+    position: relative;
+  }
+   .homedevp span::before{
+    content: "Mear develpoer";
+    color:var(--textcolor-70);
+    animation: words 20s infinite;
+  }
+  .homedevp span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 8px);
+    background-color:var(--bgcolor-70);
+    border-left: 2px solid #372420;
+    right: -8px;
+    animation: cursor .8s infinite,typing 20s steps(14) infinite;
+  }
+  
+  @keyframes cursor {
+    to{
+       border-left: 2px solid var(--bgcolor-50);
+    }
+    
+  }
+  @keyframes words {
+    0%,20%{
+      content: "Web Developer";
+    }
+    21%,100%{
+      content: "MERN Developer";
+    }
+    
+  }
+  @keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+      width: 0;
+    }
+    20%,21%{
+      width: calc(100% 
+      + 8px);
+    }
+  }
+ .myimg{
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+ }
+
+ .homename .hometitle{
+  font-size: 16px;
+  text-align: left;
+
+ }
+  
+  @media (min-width: 320px) and (max-width: 768px) {
+    .myimg{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 15px;
+      margin-left: 20px;
+      
+     }
+
+     .homename .hometitle{
+      font-size: 10px;
+      text-align: left;
+    
+     }
+      
+    .homepage{
+      flex-direction: row;
+      padding-top: 30px;
+      height: 20vh;
+      width: 100%;
+    }
+    .homename{
+      font-size: 10px;
+    }
+    .homepage p{
+      font-size: 10px;
+    }
+    .homedevp{
+      margin-left: 10px;
+    }
+    .homedevp span {
+      position: absolute;
+      font-size: 15px; /* Adjust font size for tablets */
+      padding-left: 1px;
+    }
+    .homeicon a svg {
+      font-size: 20px;
+      color:var(--textcolor-70); /* Set the color of the icons if needed */
+    }
+
+   
+  
+    
+  }

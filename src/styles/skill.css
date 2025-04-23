@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  .skillmain1{
+  
+  background-color:var(--bgcolor-70);
+  text-align: center;
+  color: var(--textcolor-80) ;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  }
+
+  .skill{
+  width: 95%;
+  
+  margin-left: 20px;
+    background-color:var(--card-50);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .skill1{
+    width: 98%;
+  }
+  .skillicon h1{
+  font-size: 30px;
+ }
+  .skillicon{
+    display: flex;
+    justify-content: center;
+      align-items: center;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    gap: 30px;
+    
+  }
+
+  .skill1 h1{
+    font-size: 25px;
+    margin-left: 10px;color: aliceblue;
+  }
+ 
+
+  @media (min-width: 320px) and (max-width: 768px){
+
+
+
+    .skill{
+      width: 95%;
+      margin-left: 10px;
+      }
+    .skill1{
+      width: 97%; 
+    }
+    .skillicon{
+      width: 100%;
+      display: flex;
+      margin-left: 5px;
+      flex-wrap: wrap;
+      font-size: 50px;
+      padding: 3px;
+    }
+  }
